@@ -1,0 +1,41 @@
+/* === Appear Transition === */
+.per-appear {
+    opacity: 0;
+}
+
+.per-appear-active {
+    opacity: 1;
+    transition: opacity 5000ms;
+}
+
+/* === Enter Transition === */
+.per-enter {
+    /* opacity: 0; */
+    width: 100px;
+    transition: width 2s;
+}
+
+.per-enter-active {
+    opacity: 1;
+    transition: width 2s;
+}
+
+.per-enter-done {
+    width: 200px;
+    transition: width 2s;
+    opacity: 1;
+}
+
+/* === Exit Transition === */
+.per-exit {
+    opacity: 1;
+}
+
+.per-exit-active {
+    opacity: 0;
+    transition: opacity 5000ms;
+}
+
+.per-exit-done {
+    opacity: 0;
+}
