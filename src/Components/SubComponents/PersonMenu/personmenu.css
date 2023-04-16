@@ -1,0 +1,114 @@
+.my-paragraph {
+    width: 0;
+    opacity: 0;
+    transition-duration: 2s;
+    transition-property: width;
+    transition-timing-function: ease-in-out;
+}
+
+/* === Appear Transition === */
+.per-appear {
+    width: 0;
+    opacity: 0;
+}
+
+.per-appear-active {
+    width: 0;
+    /* opacity: 0; */
+    transition: width 2s;
+    /* transition-timing-function: ease-in; */
+}
+
+/* === Enter Transition === */
+.per-enter {
+    width: 0;
+    transition: transform 2s;
+    /* transition-timing-function: ease-in; */
+}
+
+.per-enter-active {
+    opacity: 1;
+    width: 100%;
+    transition: width 2s;
+}
+
+.per-enter-done {
+    opacity: 1;
+    width: 100%;
+    transition: width 2s;
+}
+
+/* === Exit Transition === */
+.per-exit {
+    width: 0;
+}
+
+.per-exit-active {
+    /* opacity: 0; */
+    width: 0;
+    transition: width 2s;
+}
+
+.per-exit-done {
+    /* opacity: 0;  */
+    width: 0;
+    transition-property: opacity ;
+    transition: width 2s;
+}
+
+
+/* DownArrow */
+.my-logo {
+    width: 0;
+    transition-duration: 2s;
+    transition-property: width;
+    transition-timing-function: ease-in-out;
+}
+
+/* === Appear Transition === */
+.logo-appear {
+    width: 0;
+}
+
+.logo-appear-active {
+    width: 0;
+    transition: width 2s;
+    /* transition-timing-function: ease-in; */
+}
+
+/* === Enter Transition === */
+.logo-enter {
+    width: 0;
+    transition: transform 2s;
+    /* transition-timing-function: ease-in; */
+}
+
+.logo-enter-active {
+    opacity: 1;
+    width: 100%;
+    transition: width 2s;
+}
+
+.logo-enter-done {
+    opacity: 1;
+    width: 100%;
+    transition: width 2s;
+}
+
+/* === Exit Transition === */
+.logo-exit {
+    width: 0;
+}
+
+.logo-exit-active {
+    opacity: 0;
+    width: 0;
+    transition: width 2s;
+}
+
+.logo-exit-done {
+    opacity: 0;
+    width: 0;
+    transition-property: opacity ;
+    transition: width 2s;
+}

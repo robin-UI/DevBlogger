@@ -1,7 +1,8 @@
 import './navbar.css'
+import 'animate.css'
 import { HiUserCircle } from 'react-icons/hi'
 import { TiArrowSortedDown } from "react-icons/ti"
-import PersonMenu from '../PersonMenu/PersonMenu'
+import PersonMenu from '../SubComponents/PersonMenu/PersonMenu'
 
 function Navbar() {
     return (
@@ -10,7 +11,7 @@ function Navbar() {
                 <nav className='w-full px-3 py-4 md:px-32 flex justify-between items-center'>
                     <div className="Logo h-full">
                         {/* <img src="" alt="Logo" /> */}
-                        <h2 className='text-white text-center'>LOGO</h2>
+                        <h2 className='text-white text-center animate__animated animate__bounce animate__delay-1s'>LOGO</h2>
                     </div>
                     <ul className='md:flex md:tems-center h:full hidden '>
                         <li className='mr-14' ><a className='text-white' href="/">Home</a></li>
